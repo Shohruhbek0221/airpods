@@ -1,0 +1,15 @@
+@media(max-width:800px){
+    .main__top-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__bottom-top-box{
+        flex-direction: column;
+
+    }
+    .main__bottom-box{
+
+    }
+}

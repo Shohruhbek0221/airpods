@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    background: #282828;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+padding-top: 15px;
+padding-bottom: 20px;
+margin-bottom: -20px;
+}
+.header__nav{
+    padding-bottom: 6px;
+}
+
+.header__nav-box{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.header__nav-left-box{
+    display: flex;
+    flex-direction: row;
+    gap:30px ;
+    align-items: center;
+}
+.header__nav-left-list{
+    display: flex;
+    gap: 30px;
+
+}
+.header__nav-right-link{
+    color: #FFF;
+    text-align: right;
+    font-family: 'MB';
+    font-size: 20px;
+}
+.header__nav-right-box{
+display: flex;
+flex-direction: row;
+gap:25px ;
+align-items: center;
+}
+.header__content{
+    height: 700px;
+    background: url(../images/header__content-bg.jpg) no-repeat center /cover;
+}
+.header__content-box{
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.header__content-title{
+    color: #FFF;
+font-family: 'PO';
+font-size: 100px;
+line-height: 75px; 
+}
+.header__content-text{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF;
+    gap: 11px;
+    padding: 13px;
+    border-radius: 10px;
+    align-items: center;
+}
+.header__content-link{
+    color: #171718;
+font-family: 'MM';
+font-size: 20px;
+text-transform: uppercase;
+}
+.main{
+ background: #171718;
+padding-bottom: 55px;
+}
+.main__top-box{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+padding: 30px;
+}
+.main__top-text{
+    color: #FFF;
+    font-family: 'MM';
+    font-size: 22px;
+}
+.main__bottom-box{
+
+display: flex;
+flex-direction: row;
+gap: 30px;
+align-items: center;
+padding: 50px;
+}
+.main__bottom-text{
+    color: #FFF;
+    font-family: 'MB';
+    font-size: 22px;
+    text-align: right;
+}
+.main__bottom-text-1{
+    color: #FFF;
+    font-family: 'MB';
+    font-size: 22px; 
+}
+
+.main__bottom-top-box{
+    display: flex;
+    flex-direction:row ;
+    gap: 86px;
+    align-items: center;
+}
+
+.main__bottom-img{
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.main__bottom-img::before{
+    content: '';
+    display: block;
+    background: #C4C4C4;
+    width: 61px;
+    height: 1px;
+    position: absolute;
+    top: 202px;
+   right: 290px;
+}
+.main__bottom-img::after{
+    content: '';
+    display: block;
+    background: #C4C4C4;
+    width: 61px;
+    height: 1px;
+    position: absolute;
+    top: 202px;
+   left: 280px;
+}
+.main__bottom-item-title{
+    color: #000;
+font-family: 'MB';
+font-size: 20px;
+margin-bottom: 10px;
+margin-top: 15px;
+}
+.main__bottom-item-text{
+    color: #000;
+font-family: 'MR';
+font-size: 14px;
+text-transform: uppercase;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+.main__bottom-item-link{
+    color: #FFF;
+font-family: 'MB';
+font-size: 16px;
+text-transform: uppercase;
+
+}
+.main__bottom-item-list{
+    width: 161px;
+height: 34px;
+background: #151515;
+margin-bottom: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;
+}
+.main__bottom-items{
+    border-radius: 6px;
+background: #FFF;
+width: 255px;
+height: 312px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.main__bottom-item-box{
+    margin-top: 80px;
+
+}
+.main__bottom-item-content{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.footer{
+    background: #282828;
+box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.footer__box{
+    display: flex;
+    justify-content: space-between;
+   padding-top: 81px;
+    padding-bottom: 81px;
+}
+.footer__box-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.footer__box-content{
+    display: flex;
+    gap: 30px;
+}
+.footer__box-link{
+    color: #FFF;
+text-align: right;
+font-family:'MB';
+font-size: 20px;
+}
